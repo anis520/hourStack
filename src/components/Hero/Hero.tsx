@@ -13,8 +13,8 @@ const Hero = () => {
         </h3>
         <p className="text-lg text-justify font-semibold">
           HourStack helps you take your tasks from planning to completion. Keep
-          work organized, collaborate transparently, schedule and track time–all
-          in one place.
+          work organized, collaborates transparently, schedule and track
+          time–all in one place.
         </p>
         <button className="bg-blue-600 text-white py-3 px-5  rounded-md font-semibold ">
           Start to Free

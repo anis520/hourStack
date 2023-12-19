@@ -1,6 +1,6 @@
-import React from "react";
 import { FaAngleDown } from "react-icons/fa6";
 import logo from "../../../public/images/hs-logo-color.svg";
+
 import logotitle from "../../../public/images/hs-wordmark.svg";
 
 const Navbar = () => {
