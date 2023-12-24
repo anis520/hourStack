@@ -1,5 +1,5 @@
-import React from "react";
 import { commonStyle } from "../../style/style";
+import bannerImg from "../../../public/browser_project.png";
 
 const BrowserDiv = () => {
   return (
@@ -40,7 +40,7 @@ const BrowserDiv = () => {
       </div>
       <img
         className="w-[641px] h-[434px] sticky top-[150px]"
-        src="../../../public/browser_project.png"
+        src={bannerImg}
         alt=""
       />
     </div>

@@ -1,4 +1,9 @@
 import banner from "../../../public/images/herobanner.png";
+import brandone from "../../../public/power_digital.png";
+import brandtwo from "../../../public/citylitics_black.png";
+import brandthree from "../../../public/thekey_black.png";
+import brandfour from "../../../public/redfits.png";
+import brandfive from "../../../public/yux-design_black.png";
 
 const Hero = () => {
   return (
@@ -35,27 +40,27 @@ const Hero = () => {
           </h6>
           <div className="w-10/12 mx-auto mt-[40px] mb-[16px] flex items-center justify-around">
             <img
-              src="../public/power_digital.png"
+              src={brandone}
               alt="brand"
               className="  h-[24px] object-cover"
             />
             <img
-              src="../public/citylitics_black.png"
+              src={brandtwo}
               alt="brand"
               className="  h-[24px] object-cover"
             />{" "}
             <img
-              src="../public/thekey_black.png"
+              src={brandthree}
               alt="brand"
               className="  h-[24px] object-cover"
             />
             <img
-              src="../public/redfits.png"
+              src={brandfour}
               alt="brand"
               className="  h-[24px] object-cover"
             />
             <img
-              src="../public/yux-design_black.png"
+              src={brandfive}
               alt="brand"
               className="  h-[24px] object-cover"
             />
