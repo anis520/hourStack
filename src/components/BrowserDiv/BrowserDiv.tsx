@@ -1,9 +1,9 @@
 import React from "react";
 import { commonStyle } from "../../style/style";
 
-type Props = {};
+ 
 
-const BrowserDiv = (props: Props) => {
+const BrowserDiv = (props ) => {
   return (
     <div className="flex pt-[80px] gap-[110px] ">
       <div className="min-w-[380px]">
