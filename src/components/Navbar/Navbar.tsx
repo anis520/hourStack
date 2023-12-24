@@ -30,8 +30,8 @@ const Navbar = () => {
       {/* <-------Auth  start------> */}
       <div className=" w-3/12 flex justify-end gap-10">
         <button className="font-semibold text-[16px]">Log In</button>
-        <button className="bg-blue-600 text-white p-2 rounded-md font-semibold ">
-          Start for Free
+        <button className="bg-blue-600 text-white py-2 px-4 rounded-md font-semibold ">
+          Register
         </button>
       </div>
       {/* <-------Auth  end------> */}
