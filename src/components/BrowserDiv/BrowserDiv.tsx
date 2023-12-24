@@ -41,7 +41,7 @@ const BrowserDiv = (props: Props) => {
         </div>
       </div>
       <img
-        className="w-[641px] h-[434px] sticky top-0"
+        className="w-[641px] h-[434px] sticky top-[150px]"
         src="../../../public/browser_project.png"
         alt=""
       />
