@@ -9,11 +9,11 @@ const Hero = () => {
   return (
     <>
       {" "}
-      <div className="pb-[80px]">
+      <div className="pb-[80px] px-0 md:px-8 lg:px-5  ">
         <div className="flex items-center">
           {/* <------Left side -------> */}
           <div className="left w-6/12 space-y-6">
-            <h3 className="text-6xl font-bold  text-zinc-800">
+            <h3 className="text-5xl lg:text-6xl font-bold  text-zinc-800">
               <span className="bg-gradient-to-r from-[#68bdde] via-[#5f91ee] to-[#aab1f2] bg-clip-text text-transparent">
                 Seamless
               </span>{" "}

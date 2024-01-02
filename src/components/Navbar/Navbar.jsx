@@ -5,7 +5,7 @@ import logotitle from "../../../public/images/hs-wordmark.svg";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0  py-8 flex bg-[#F7F9FD] z-30">
+    <div className="sticky top-0 px-0 md:px-8 lg:px-5  py-8 flex bg-[#F7F9FD] z-30">
       {/* <-------logo start------> */}
       <a href="" className="w-2/12  flex items-center  gap-1 px-2">
         <img src={logo} className="w-5 h-5 " alt="" />

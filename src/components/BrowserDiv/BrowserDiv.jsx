@@ -3,8 +3,8 @@ import bannerImg from "../../../public/browser_project.png";
 
 const BrowserDiv = () => {
   return (
-    <div className="flex pt-[80px] gap-[110px] ">
-      <div className="min-w-[380px]">
+    <div className="w-11/12  mx-auto flex pt-[80px] gap-[50px] lg:gap-[110px] justify-center    ">
+      <div className="lg:min-w-[380px] ">
         {/* <============single docs ================> */}
         <div className="py-[160px]">
           <p className={`${commonStyle.title}`}>TASK & PROJECT MANAGEMENT</p>
@@ -39,7 +39,7 @@ const BrowserDiv = () => {
         </div>
       </div>
       <img
-        className="w-[641px] h-[434px] sticky top-[150px]"
+        className=" w-7/12   object-cover  lg:w-[641px] h-[434px] sticky top-[150px]"
         src={bannerImg}
         alt=""
       />
